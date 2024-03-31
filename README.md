@@ -35,7 +35,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 <li>No console AWS, vá para o Painel EC2;</li>
 <li>No menu posicionado ao lado esquerdo da tela, vá até a seção Rede e Segurança e clique em Pares de Chaves;</li>
 <li>Na próxima tela, no lado superior direito, clique em Criar par de chaves;</li>
-<li>A tela de criação será aberta e nela você poderá escolher um nome para o par de chaves. No meu caso, criei a chave "chave2_sergio_compass";</li>
+<li>A tela de criação será aberta e nela você poderá escolher um nome para o par de chaves. No meu caso, criei a chave "chave_pedro";</li>
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/ed421a36-89ec-4a4b-8c67-1dec256dc4ec" alt="Print da tela de cadastro de par de chave">
 <li>Mantenha as configurações restantes e na opção Formato de arquivo de chave privada, selecione o formato .ppk, necessário para acessar a instância via Putty, como iremos fazer;</li>
 <li>Feito isso, basta clicar em Criar Par de Chaves;</li>
