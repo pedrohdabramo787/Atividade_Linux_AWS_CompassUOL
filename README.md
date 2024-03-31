@@ -29,8 +29,8 @@ Essas etapas precisa atender a alguns requisitos básicos, sendo:
 <h2>Execução da atividade</h2>
 Pode ser que por estar sendo feito em 2024 a realização dessa atividade, os itens não se encontrem no mesmo lugar, caso esteja vendo em outra data.
 
-<h3>AWS >> Geração de chave pública para acesso ao ambiente 🔑</h3>
-Inicialmente, devemos lembrar que é possível criar uma chave pública de duas formas no console AWS: na opção "Pares de Chaves", no menu Rede e Segurança do Painel EC2; e durante a criação de uma instância EC2, no momento de configurações da instância. Aqui, iremos criar a chave antes de criarmos a instância.
+<h3>AWS - Geração de uma chave pública para acesso ao ambiente 🔑</h3>
+Nós iremos criar a chave antes de criarmos a instância.
 <ol>
 <li>No console AWS, vá para o Painel EC2;</li>
 <li>No menu posicionado ao lado esquerdo da tela, vá até a seção Rede e Segurança e clique em Pares de Chaves;</li>
