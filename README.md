@@ -4,7 +4,8 @@
 O objetivo da atividade é aplicar conceitos e funcionalidades dos serviços da Amazon AWS, além de explorar o funcionamento de comandos Linux. Em resumo, iremos criar uma instância EC2, configurar sua rede para acesso público e, dentro dessa instância, realizar procedimentos como a criação de um script para monitorar o status online e offline do Apache.
 
 <h2>Requisitos Iniciais</h2>
-A execução do projeto se dará em duas partes: a primeira ocorrerá dentro do ambiente da AWS; a segunda, dentro de um ambiente Linux. Cada uma dessas etapas precisa atender a alguns requisitos básicos, sendo eles:
+A execução do projeto ocorrerá em dois momentos: Primeiro dentro do ambiente da AWS e a segundo, dentro de um ambiente Linux.
+Essas etapas precisa atender a alguns requisitos básicos, sendo:
 
 <h4>Requisitos AWS ✅ </h4>
 <ul>
