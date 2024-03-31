@@ -1,4 +1,4 @@
-<h1 align="center">Atividade prática AWS/LINUX ☁️ DOCUMENTAÇÃO</h1>
+<h1 align="center">Atividade prática AWS & LINUX - DOCUMENTAÇÃO</h1>
 
 <h2>Descrição</h2>
 O objetivo da atividade é aplicar conceitos e funcionalidades dos serviços da Amazon AWS, além de explorar o funcionamento de comandos Linux. Em resumo, iremos criar uma instância EC2, configurar sua rede para acesso público e, dentro dessa instância, realizar procedimentos como a criação de um script para monitorar o status online e offline do Apache.
