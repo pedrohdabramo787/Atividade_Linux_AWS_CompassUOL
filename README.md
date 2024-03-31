@@ -1,7 +1,7 @@
 <h1 align="center">Atividade prática AWS/LINUX ☁️ DOCUMENTAÇÃO</h1>
 
 <h2>Descrição</h2>
-A atividade tem como objetivo colocar em prática alguns conceitos e funcionalidades de serviços da Amazon AWS, assim como explorar o funcionamento de comandos Linux. Em linhas gerais, vamos criar uma instância EC2 em uma base Amazon Linux 2, configurar sua rede para acesso público e, dentro dessa mesma instância, vamos executar alguns procedimentos, como a criação de um script para verificar o status online e offline do Apache.
+O objetivo da atividade é aplicar conceitos e funcionalidades dos serviços da Amazon AWS, além de explorar o funcionamento de comandos Linux. Em resumo, iremos criar uma instância EC2, configurar sua rede para acesso público e, dentro dessa instância, realizar procedimentos como a criação de um script para monitorar o status online e offline do Apache.
 
 <h2>Requisitos Iniciais</h2>
 A execução do projeto se dará em duas partes: a primeira ocorrerá dentro do ambiente da AWS; a segunda, dentro de um ambiente Linux. Cada uma dessas etapas precisa atender a alguns requisitos básicos, sendo eles:
