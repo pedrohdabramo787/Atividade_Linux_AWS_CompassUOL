@@ -42,7 +42,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 <li>Salve em lugar seguro o arquivo gerado e pronto, o par de chave estará disponível e listado no menu.</li>
 </ol>
 
-<h3>AWS >> Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD) 🖥️</h3>
+<h3>AWS - Criar 1 instância EC2 com o sistema operacional Amazon Linux 2 (Família t3.small, 16 GB SSD) 🖥️</h3>
 <ol>
 <li>No Painel EC2 no console AWS, clique em Instâncias no menu ao lado esquerdo da tela;</li>
 <li>Na próxima tela, no lado superior direito, clique em Executar instância;</li>
