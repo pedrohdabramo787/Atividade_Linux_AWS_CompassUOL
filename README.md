@@ -60,7 +60,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 
 ⚠️Antes de gerarmos o IP elástico, é importante criarmos um Gateway de Internet para garantirmos a conexão da rede com a internet.⚠️
 
-<h3>AWS >> Criando Gateway de Internet</h3>
+<h3>AWS - Criando Gateway de Internet</h3>
 <ol>
 <li>No console da AWS, acesse o painel do serviço VPC. Clique em Gateways de internet no menu lateral esquerdo;</li>
 <li>Clique em Criar gateway de internet;</li>
@@ -69,7 +69,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 <li>Selecione a VPC da instância EC2 criada anteriormente e clique em Associar. A VPC será listada automaticamente no campo, bastando confirmar;</li>
 </ol>
 
-<h3>AWS >> Gerar 1 Elastic IP e anexar à instância EC2</h3>
+<h3>AWS - Gerar 1 Elastic IP e anexar à instância EC2</h3>
 <ol>
 <li>Na página do serviço EC2, no menu lateral esquerdo, em Rede e Segurança, clique em IPs elásticos;</li>
 <li>Clique em Alocar endereço IP elástico;</li>
