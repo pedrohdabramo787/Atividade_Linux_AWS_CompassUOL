@@ -82,7 +82,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/a4cc2779-bca8-4757-868f-675e3664dbc6" alt="Elastic IP">
 </ol>
 
-<h3>AWS >> Liberar as portas de comunicação para acesso público 🌐 </h3>
+<h3>AWS - Liberar as portas de comunicação para acesso público 🌐 </h3>
 <ol>
 <li>Na página do serviço EC2, no menu lateral esquerdo, em Rede e Segurança, clique em Security groups;</li>
 <li>Selecione o grupo de segurança que foi criado com a instância EC2;</li>
@@ -106,7 +106,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 
 ⚠️Como iremos acessar a instância via PuTTY a partir de uma máquina Windows, deveremos configurar ainda a Tabela de rotas principal e da Sub-rede, caso contrário, o PuTTY poderá não acessar a instância, informando erro de conexão. ⚠️
 
-<h3>AWS >> Configurar rota de internet 🔃 </h3>
+<h3>AWS - Configurar rota de internet 🔃 </h3>
 <ol>
 <li>Acesse o Painel do serviço VPC e clique em Tabelas de rotas, no menu lateral esquerdo;</li>
 <li>Selecione a tabela de rotas principal da VPC da instância EC2 criada anteriormente. Geralmente é a primeira da lista;</li>
@@ -118,7 +118,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 <li>Clique em Salvar alterações.</li>
 </ol>
 
-<h3>AWS >> Configurar rota de sub-rede ↩️ </h3>
+<h3>AWS - Configurar rota de sub-rede ↩️ </h3>
 <ol>
 <li>Antes de configurarmos a rota da sub-rede, é preciso ir até o Painel EC2, clicar na opção Instâncias, selecionar a instância criada na lista e verificar nos detalhes abaixo em qual sub-rede ela está localizada. Munidos dessa informação, retornamos para o Painel VPC, no mesmo campo Tabela de rotas que entramos na configuração anterior;</li>
 <li>Selecione apenas e exatamente a sub-rede na qual a instância EC2 criada está localizada;</li>
