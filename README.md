@@ -130,7 +130,7 @@ Nós iremos criar a chave antes de criarmos a instância.
 <li>Clique em Salvar alterações.</li>
 </ol>
 
-<h3>AWS >> Servidor NFS a partir do Elastic File System (EFS) - Security Group 📂</h3>
+<h3>AWS - Servidor NFS a partir do Elastic File System (EFS) - Security Group 📂</h3>
 Para configurarmos um servidor NFS na máquina Linux nos próximos passos, vamos utilizar o serviço EFS da própria AWS.<br>
 Antes, vamos configurar um grupo de segurança que será utilizada para a rede do EFS mais adiante.
 <ol>
@@ -148,7 +148,7 @@ Antes, vamos configurar um grupo de segurança que será utilizada para a rede d
 <li>Clique em Criar grupo de segurança para finalizar.</li>
 </ol>
 
-<h3>AWS >> Criando o serviço de Elastic File System 🗄️ (EFS)</h3>
+<h3>AWS - Criando o serviço de Elastic File System 🗄️ (EFS)</h3>
 <ol>
 <li>No console AWS, navegue até o serviço de EFS;</li>
 <li>No menu lateral esquerdo, clique em Sistemas de arquivos e, na sequência, em Criar sistema de arquivos;</li>
@@ -158,7 +158,7 @@ Antes, vamos configurar um grupo de segurança que será utilizada para a rede d
 <li>Revise as informações e clique em Criar para terminar;</li>
 <li>Na lista de sistemas criados, abra o sistema de arquivos recém-feito e clique no botão Anexar para visualizar as opções de montagem (IP ou DNS);</li>
 <li>A AWS já nos apresenta comandos definidos de acordo com as opções escolhidas. Aqui, vamos utilizar a montagem via DNS usando o cliente do NFS. Copie-o e salve em um bloco de notas, pois irá precisar dele mais adiante. O comando segue o seguinte modelo:</li>
-<code>sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 [DNS do EFS]:/ [caminho local]</code>
+<code>sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-095716ec1ba586464.efs.us-east-1.amazonaws.com:/ efs [caminho local]</code>
 </ol>
 
 <br>
