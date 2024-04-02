@@ -168,7 +168,7 @@ Antes, vamos configurar um grupo de segurança que será utilizada para a rede d
 Antes de iniciarmos os próximos passos será preciso:
 <ul>
 <li>Baixar e instalar a versão mais atualizada do PuTTY, de preferência diretamente da página oficial. O PuTTY é um cliente SSH gratuito para Windows.</li>
-<li>Ir até os detalhes da sua instância EC2, no console AWS, e copiar as informações do DNS público. Esse informação geralmente termina com os termos "amazonaws.com".</li>
+<li>Ir até os detalhes da sua instância EC2, no console AWS, e copiar as informações do DNS público. Esse informação geralmente termina com os termos "amazonaws.com". No meu caso: ec2-52-44-135-101.compute-1.amazonaws.com.</li>
 </ul>
 Estando com o PuTTY instalado:
 <h3>PuTTY >> Acessando a instância via PuTTY</h3>
