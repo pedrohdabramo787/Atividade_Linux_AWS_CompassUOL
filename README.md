@@ -189,7 +189,7 @@ Estando com o PuTTY instalado:
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/98cb43a4-9c71-4cd0-908e-342f885559c6" alt="Texto Alternativo">
 </ol>
 
-<h3>Linux >> Montando o sistema de arquivos do EFS na máquina 📄 </h3>
+<h3>Linux - Montando o sistema de arquivos do EFS na máquina 📄 </h3>
 A partir de agora nossas ações serão feitas no terminal Linux da instância EC2 que o PuTTY nos conectou.<br>
 Caso necessário, entre com o comando <code>sudo su</code> para ganhar privilégios administrativos.
 <ol>
@@ -207,7 +207,7 @@ Caso necessário, entre com o comando <code>sudo su</code> para ganhar privilég
     </ol>
 </ol>
 
-<h3>Linux >> Configurando Apache 📤 </h3>
+<h3>Linux - Configurando Apache 📤 </h3>
 <ol>
 <li>Atualize os pacotes do sistema com o comando <code>sudo yum update -y</code>;</li>
 <li>Instale o Apache com o comando <code>sudo yum install httpd -y</code>;</li>
@@ -216,7 +216,31 @@ Caso necessário, entre com o comando <code>sudo su</code> para ganhar privilég
 <li>Verifique se o apache está em execução através do comando <code>sudo systemctl status httpd</code>;</li>
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/afeb0b4e-569d-4861-a127-9646ab44a87c" alt="Texto Alternativo">
 <li>O Apache já vem com uma página inicial padrão que pode ser acessada através da digitação do IP público na barra de endereço de um navegador. Mas também é possível editar essa página HTML para que exiba o que você quiser. Isso é feito a partir de um arquivo index que pode ser criado dentro do diretório do Apache;</li>
-<li>Para criar/editar esse arquivo, digite o comando <code>sudo nano index.html</code>. O arquivo HTML que você digitar nesse documento é o que será mostrado na página acessada pelo IP público. Veja a seguir um exemplo de documento HTML para o serviço:</li>
+<li>Para criar/editar esse arquivo, digite o comando <code>sudo nano index.html</code>. O arquivo HTML que você digitar nesse documento é o que será mostrado na página acessada pelo IP público. Veja a seguir um exemplo de documento HTML para o serviço:
+"<HTML>
+<HEAD>
+	<SCRIPT SRC="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></SCRIPT>
+	<SCRIPT SRC="assets/js/main.js"></SCRIPT>
+	<SCRIPT SRC="assets/js/common.js"></SCRIPT>
+	<SCRIPT TYPE="text/javascript">
+		$("body>ul").click(function() {
+			$(this).css("color", "red");
+		});
+	</SCRIPT>
+	<LINK REL="stylesheet" HREF="assets/css/home.css">
+	<LINK REL="stylesheet" HREF="assets/css/common.css">
+</HEAD>
+<BODY onload="preload()">
+	<H1>APACHE</H1>
+	<UL STYLE="list-style-type: square">
+		<LI>RODANDO!
+	</UL>
+	<CENTER>
+	<H2>DEU CERTO!</H2>
+	<P><EM>EBA!!!</P></EM>
+	</CENTER>
+</BODY>
+</HTML>"</li>
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/8e9df0a5-8920-4ad7-b661-7cc3b7367887" alt="Texto Alternativo">
 <li>Para salvar o documento no editor nano, aperte ctrl+x, depois y e confirme apertando enter;</li>
 <li>Para acessar a página e ver se funcionou, basta colar o IP público da instância (informação disponível nos detalhes da instância na AWS) na barra de endereço de um navegador.</li>
