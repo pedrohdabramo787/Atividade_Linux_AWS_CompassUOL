@@ -226,7 +226,7 @@ Para criar um script será necessário utilizar um editor de texto (utilizaremos
 Devemos lembrar que, para essa atividade, o script deve conter data, hora, nome do serviço, status e mensagem personalizada de ONLINE ou OFFLINE.<br>
 O script também deve gerar 2 arquivos de saída: um para o serviço online e outro para o serviço offline.
 <ol>
-<li>Execute o comando <code>nano service_status.sh</code> para criar e abrir o arquivo do script. É importante criar o script dentro do diretório EFS. Aqui vamos salvá-lo no caminho /mnt/efs/sergio;</li>
+<li>Execute o comando <code>nano service_status.sh</code> para criar e abrir o arquivo do script. É importante criar o script dentro do diretório EFS. Aqui vamos salvá-lo no caminho /mnt/efs/[seu nome ou pasta criada];</li>
 <li>Dentro do arquivo, digite o script desejado. O script criado para essa atividade pode ser observado na imagem a seguir:</li>
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/6c623fa7-81b9-4474-9c4a-6eacf97a7ff0" alt="Exemplo de script">
 <li>Note que, no exemplo acima, dentro do esquema "if/else", já indicamos que a operação deve criar, no caminho do diretório indicado, e enviar dois arquivos em formato .txt com os resultados da verificação. Sendo um arquivo para o resultado online e outro para o resultado offline;</li>
