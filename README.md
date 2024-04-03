@@ -216,8 +216,8 @@ Caso necessário, entre com o comando <code>sudo su</code> para ganhar privilég
 <li>Verifique se o apache está em execução através do comando <code>sudo systemctl status httpd</code>;</li>
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/afeb0b4e-569d-4861-a127-9646ab44a87c" alt="Texto Alternativo">
 <li>O Apache já vem com uma página inicial padrão que pode ser acessada através da digitação do IP público na barra de endereço de um navegador. Mas também é possível editar essa página HTML para que exiba o que você quiser. Isso é feito a partir de um arquivo index que pode ser criado dentro do diretório do Apache;</li>
-<li>Para criar/editar esse arquivo, digite o comando <code>sudo nano index.html</code>. O arquivo HTML que você digitar nesse documento é o que será mostrado na página acessada pelo IP público. Veja a seguir um exemplo de documento HTML para o serviço:
-"<HTML>
+<li>Para criar/editar esse arquivo, digite o comando <code>sudo nano index.html</code>. O arquivo HTML que você digitar nesse documento é o que será mostrado na página acessada pelo IP público. Veja a seguir um exemplo de documento HTML para o serviço:</li>
+< !-- <HTML>
 <HEAD>
 	<SCRIPT SRC="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></SCRIPT>
 	<SCRIPT SRC="assets/js/main.js"></SCRIPT>
@@ -240,8 +240,7 @@ Caso necessário, entre com o comando <code>sudo su</code> para ganhar privilég
 	<P><EM>EBA!!!</P></EM>
 	</CENTER>
 </BODY>
-</HTML>"</li>
-<img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/8e9df0a5-8920-4ad7-b661-7cc3b7367887" alt="Texto Alternativo">
+</HTML> -- >
 <li>Para salvar o documento no editor nano, aperte ctrl+x, depois y e confirme apertando enter;</li>
 <li>Para acessar a página e ver se funcionou, basta colar o IP público da instância (informação disponível nos detalhes da instância na AWS) na barra de endereço de um navegador.</li>
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/90610cad-f8c4-44fb-81d3-393939ef543e" alt="Texto Alternativo">
