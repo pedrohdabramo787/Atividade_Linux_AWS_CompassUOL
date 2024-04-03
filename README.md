@@ -242,7 +242,7 @@ O script também deve gerar 2 arquivos de saída: um para o serviço online e ou
 Para o agendamento da execução do script vamos utilizar o comando crontab. Normalmente o crontab abre um arquivo com o programa vi de edição de texto. Sendo o vi não muito prático, é possível modificar para que a abertura ocorra com o nano, muito mais intuitivo e semelhante aos editores de texto convencionais.
 <ol>
 <li>Digite o comando <code>EDITOR=nano crontab -e</code>, para que o nano abra o arquivo crontab;</li>
-<li>Dentro do arquivo digite a linha <code>*/5 * * * * /[caminho de onde está o script/nome do script]</code>. Em nosso caso, ficou dessa forma: <code>*/5 * * * * /mnt/efs/sergio/service_status.sh</code></li>
+<li>Dentro do arquivo digite a linha <code>*/5 * * * * /[caminho de onde está o script/nome do script]</code>.
 <li>Salve o arquivo e feche o editor.</li>
 <li>Para verificar se a automatização está funcionando, é preciso abrir os arquivos .txt que foram programados para serem criados e guardar as informações da verificação do serviço online e offline. Como a automatização faz com que a verificação programada pelo script ocorra a cada 5 minutos, dê algum tempo para que o arquivo .txt seja atualizado algumas vezes;</li>
 <li>Na imagem abaixo temos a demonstração do arquivo httpd-online.txt exibindo as informações da validação online após o crontab realizar a automatização algumas vezes:</li>
