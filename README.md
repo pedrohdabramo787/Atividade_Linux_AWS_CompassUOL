@@ -238,7 +238,7 @@ O script também deve gerar 2 arquivos de saída: um para o serviço online e ou
 <li>Note que o documento informa a data e a hora em que a verificação foi feita, assim como o nome do serviço verificado e uma mensagem indicando que o mesmo está online.</li>
 </ol>
 
-<h3>Linux >> Preparando a execução automatizada do script a cada 5 minutos 🤖 </h3>
+<h3>Linux - Preparando a execução automatizada do script a cada 5 minutos 🤖 </h3>
 Para o agendamento da execução do script vamos utilizar o comando crontab. Normalmente o crontab abre um arquivo com o programa vi de edição de texto. Sendo o vi não muito prático, é possível modificar para que a abertura ocorra com o nano, muito mais intuitivo e semelhante aos editores de texto convencionais.
 <ol>
 <li>Digite o comando <code>EDITOR=nano crontab -e</code>, para que o nano abra o arquivo crontab;</li>
@@ -259,7 +259,8 @@ Guia Linux Unirio: https://guialinux.uniriotec.br/ <br>
 
 <br>
 
-Esta documentação foi formulada por Sérgio Luiz Ferreira de Freitas a partir da atividade realizada e proposta no contexto do Programa de Bolsas e Estágio AWS e DecSecOps na Compass UOL no primeiro semestre de 2024.<br>
-Ao longo da atividade deixamos alguns endereços IP explícitos, o que não é uma boa prática de segurança, no entanto, as máquinas criadas e utilizadas para essa atividade não estão mais disponíveis, tendo sido criadas exclusivamente para a execução da tarefa e sua demonstração.
+A presente documentação foi produzida por Pedro Haddad Dabramo como resultado da atividade realizada e proposta no âmbito do Programa de Bolsas e Estágio AWS e DevOps na Compass UOL durante o primeiro semestre de 2024.
+
+Ao longo do desenvolvimento da atividade, houve a inclusão de alguns endereços IPs que permaneceram abertos, o que, em termos de segurança, não é recomendável. No entanto, é crucial ressaltar que as máquinas utilizadas para essa finalidade foram criadas exclusivamente para a execução da tarefa e para fins de demonstração, e não estão mais em operação.
 
 <img src="https://github.com/ferreirasergio/Atividade_Linux_AWS_CompassUOL/assets/105258064/191d63f4-4eb3-4780-b902-aae6fc8aa56d" alt="Compass Uol logo">
